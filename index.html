@@ -23,7 +23,7 @@
         <h1 class="main-hero-title">Прогноз на осень 2023</h1>
         <p class="hero-text">Что дальше!?</p>
         <img
-          class="header-next"
+          class="header-text"
           src="./images/png/header-what-is-next.png"
           alt=""
           width="100%"
@@ -52,16 +52,34 @@
     <section class="section-three">
       <div class="container">
         <h2>Я проведу два глубоких вебинара <span>9 и 16 сентября</span></h2>
-        <svg class="three-svg" width="40px" height="40px">
+        <svg class="three-svg">
           <use href="./images/symbol-defs.svg#icon-section-three-arrow"></use>
         </svg>
         <picture>
           <source
             srcset="
+              ./images/png/section-three-vika-desktop-1x.png 1x,
+              ./images/png/section-three-vika-desktop-2x.png 2x
+            "
+            media="(min-width: 1440px)"
+            width="793"
+            height="900"
+          />
+          <source
+            srcset="
+              ./images/png/section-three-vika-tablet-1x.png 1x,
+              ./images/png/section-three-vika-tablet-2x.png 2x
+            "
+            media="(min-width: 768px)"
+            width="473"
+            height="537"
+          />
+          <source
+            srcset="
               ./images/png/section-three-vika.png    1x,
               ./images/png/section-three-vika-2x.png 2x
             "
-            media="(max-width: 430px)"
+            media="(max-width: 428px)"
             width="229"
             height="246"
           />
@@ -69,6 +87,8 @@
             class="section-three-women"
             src="./images/png/section-three-vika.png"
             alt=""
+            width="229"
+            height="246"
           />
         </picture>
       </div>
@@ -76,7 +96,7 @@
     <!--------------------section-four-------------------->
     <section class="section-four">
       <div class="container">
-        <h2 class="section-title">
+        <h2 class="section-title-four">
           На первом вебинаре мы рассмотрим события осени и возможные варианты:
         </h2>
         <span class="four-number-one">1</span>
@@ -94,12 +114,13 @@
           Это те сферы, которые максимально актуализируются для всех нас в этот
           период
         </p>
+        <span class="decoration"></span>
       </div>
     </section>
     <!--------------------section-five-------------------->
     <section class="section-five">
       <div class="container">
-        <h2 class="section-title">
+        <h2 class="section-title-five">
           Второй вебинар будет посвящен прогнозу для всех знаков на будущий
           период и на коридор затмений.
         </h2>
@@ -123,12 +144,12 @@
         <table class="six-table">
           <tr class="row">
             <th class="table-rate">Тариф</th>
-            <th class="table-products">
-              2 эфира
+            <th class="table-products product-with-one">
+              2 эфира <br />
               <span class="product-one" lang="en">Optimal</span>
             </th>
-            <th class="table-products">
-              *3 эфира
+            <th class="table-products product-with-two">
+              *3 эфира <br />
               <span class="product-two" lang="en">Optimal+</span>
             </th>
           </tr>
@@ -157,27 +178,29 @@
     <!--------------------section-seven-------------------->
     <section class="section-seven">
       <div class="container">
-        <div class="button-container">
-          <p>2 эфира</p>
-          <p class="tariff" lang="en">Optimal</p>
-          <a
-            class="first-button seven-button"
-            href="https://vikabardadym.in.ua/osen23"
-            target="_blank"
-            rel="nofollow"
-            >КУПИТЬ</a
-          >
-        </div>
-        <div class="button-container">
-          <p>*3 эфира</p>
-          <p class="tariff" lang="en">Optimal+</p>
-          <a
-            class="second-button seven-button"
-            href="https://vikabardadym.in.ua/osen2023"
-            target="_blank"
-            rel="nofollow"
-            >КУПИТЬ</a
-          >
+        <div class="buttons">
+          <div class="button-container">
+            <p>2 эфира</p>
+            <p class="tariff" lang="en">Optimal</p>
+            <a
+              class="first-button seven-button"
+              href="https://vikabardadym.in.ua/osen23"
+              target="_blank"
+              rel="nofollow"
+              >КУПИТЬ</a
+            >
+          </div>
+          <div class="button-container">
+            <p>*3 эфира</p>
+            <p class="tariff" lang="en">Optimal+</p>
+            <a
+              class="second-button seven-button"
+              href="https://vikabardadym.in.ua/osen2023"
+              target="_blank"
+              rel="nofollow"
+              >КУПИТЬ</a
+            >
+          </div>
         </div>
       </div>
     </section>
