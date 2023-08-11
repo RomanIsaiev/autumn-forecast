@@ -975,26 +975,47 @@ body {
   font-weight: 600;
   line-height: 130%; /* 20.8px */
 
-  box-shadow: 0 0 0 3px rgba(231, 10, 146, 0.5);
-  animation: shadow 1s ease infinite;
   cursor: pointer;
 }
 
 .button-container .first-button {
   background-color: var(--light-pink-text);
   margin-bottom: 64px;
+  animation: glowing 1300ms infinite;
 }
 
 .button-container .second-button {
   background-color: var(--purple-text);
+  animation: glowing-two 1300ms infinite;
 }
 
-@keyframes shadow {
+@keyframes glowing {
   0% {
-    box-shadow: 0 0 0 0 var(--purple-text);
+    background-color: var(--light-pink-text);
+    box-shadow: 0 0 5px var(--light-pink-text);
+  }
+  50% {
+    background-color: #fbcaff;
+    box-shadow: 0 0 20px #fbcaff;
   }
   100% {
-    box-shadow: 0 0 0 7px rgb(255, 255, 255);
+    background-color: var(--light-pink-text);
+    box-shadow: 0 0 5px var(--light-pink-text);
+  }
+}
+
+@keyframes glowing-two {
+  0% {
+    background-color: var(--light-pink-text);
+    box-shadow: 0 0 5px var(--light-pink-text);
+  }
+  50% {
+    background-color: #f150ff;
+    box-shadow: 0 0 20px #f150ff;
+  }
+  100% {
+    background-color: var(--light-pink-text);
+    box-shadow: 0 0 5px var(--light-pink-text);
   }
 }
 
