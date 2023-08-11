@@ -991,31 +991,31 @@ body {
 
 @keyframes glowing {
   0% {
-    background-color: var(--light-pink-text);
-    box-shadow: 0 0 5px var(--light-pink-text);
+    background-color: #f688ff;
+    box-shadow: 0 0 5px #f688ff;
   }
   50% {
     background-color: #fbcaff;
     box-shadow: 0 0 20px #fbcaff;
   }
   100% {
-    background-color: var(--light-pink-text);
-    box-shadow: 0 0 5px var(--light-pink-text);
+    background-color: #f688ff;
+    box-shadow: 0 0 5px #f688ff;
   }
 }
 
 @keyframes glowing-two {
   0% {
-    background-color: var(--light-pink-text);
-    box-shadow: 0 0 5px var(--light-pink-text);
+    background-color: #c500d6;
+    box-shadow: 0 0 5px #c500d6;
   }
   50% {
-    background-color: #f150ff;
-    box-shadow: 0 0 20px #f150ff;
+    background-color: #fbcaff;
+    box-shadow: 0 0 20px #fbcaff;
   }
   100% {
-    background-color: var(--light-pink-text);
-    box-shadow: 0 0 5px var(--light-pink-text);
+    background-color: #c500d6;
+    box-shadow: 0 0 5px #c500d6;
   }
 }
 
