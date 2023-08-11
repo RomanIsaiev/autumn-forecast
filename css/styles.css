@@ -293,6 +293,7 @@ body {
 
   background-image: url(../images/png/section-three-ellipse.png);
   background-repeat: no-repeat;
+  background-size: 150px;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -300,7 +301,7 @@ body {
   (min-resolution: 2dppx) {
   .section-three {
     background-image: url(../images/png/section-three-ellipse-mobile-2x.png);
-    background-size: 46px;
+    background-size: 150px;
   }
 }
 
@@ -712,7 +713,7 @@ body {
   background-image: url(../images/png/section-six-ellipse.png);
   background-repeat: no-repeat;
   background-position: bottom 20px left 20px;
-  background-size: 110px;
+  background-size: 150px;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -720,7 +721,7 @@ body {
   (min-resolution: 2dppx) {
   .section-six {
     background-image: url(../images/png/section-six-ellipse-mobile-2x.png);
-    background-size: 110px;
+    background-size: 150px;
   }
 }
 
