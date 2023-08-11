@@ -29,20 +29,12 @@ body {
 
   padding-top: 96px;
   padding-bottom: 37px;
-}
 
-.header-ellipce-mobile {
-  position: absolute;
-  top: 20px;
-  left: 0;
-  z-index: -1;
-}
-
-.header-pento-mobile {
-  position: absolute;
-  top: 20px;
-  right: 0;
-  z-index: -1;
+  background-image: url(../images/png/header-pento.png),
+    url(../images/png/header-ellipse.png);
+  background-repeat: no-repeat;
+  background-position: top 0 right 0, left 0 top 0;
+  background-size: 200px, 180px;
 }
 
 .header-next {
@@ -59,9 +51,13 @@ body {
   line-height: 130%; /* 46.8px */
   text-transform: uppercase;
 
-  width: 248px;
+  width: 260px;
   margin-top: 0;
   margin-bottom: 48px;
+
+  background-image: url(../images/png/header-star.png);
+  background-repeat: no-repeat;
+  background-position: left 220px top 0;
 }
 
 .hero-text {
@@ -134,6 +130,9 @@ body {
   padding-bottom: 58px;
 
   position: relative;
+
+  background-image: url(../images/png/section-three-ellipse.png);
+  background-repeat: no-repeat;
 }
 
 .section-three-women {
@@ -295,7 +294,10 @@ body {
 /**************section-six**************/
 .section-six {
   padding-bottom: 58px;
-  position: relative;
+
+  background-image: url(../images/png/section-six-ellipse.png);
+  background-repeat: no-repeat;
+  background-position: bottom 25px left 40px;
 }
 
 .six-table {
@@ -375,13 +377,6 @@ body {
 .table-description span {
   color: var(--purple-text);
   font-weight: 500;
-}
-
-.sect-six-ellipse {
-  position: absolute;
-  bottom: 15px;
-  left: 45px;
-  z-index: -1;
 }
 
 /**************section-seven**************/
